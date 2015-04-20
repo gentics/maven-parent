@@ -9,7 +9,7 @@
 	<properties>
 		<!-- Dependency versions -->
 		<junit.version>4.11</junit.version>
-		<mockito.version>1.9.5</mockito.version>
+		<mockito.version>1.10.19</mockito.version>
 
 		<!--Plugin versions -->
 		<maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
