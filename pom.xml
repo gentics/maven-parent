@@ -260,12 +260,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>archiva.lan.releases</id>
+			<id>artifactory.lan.releases</id>
 			<name>Gentics Releases Repository</name>
 			<url>http://artifactory.office/repository/lan.releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>archiva.lan.snapshots</id>
+			<id>artifactory.lan.snapshots</id>
 			<name>Gentics Snapshots Repository</name>
 			<url>http://artifactory.office/repository/lan.snapshots</url>
 		</snapshotRepository>
