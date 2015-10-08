@@ -78,6 +78,11 @@
 		</profile>
 	</profiles>
 
+	<scm>
+		<connection>scm:git:git@github.com:gentics/maven-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:gentics/maven-parent.git</developerConnection>
+		<url>https://github.com/gentics/maven-parent</url>
+	</scm>
 
 	<build>
 		<pluginManagement>
@@ -242,7 +247,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
 
 	<repositories>
 		<repository>
