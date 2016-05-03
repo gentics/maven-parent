@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gentics</groupId>
 	<artifactId>maven-parent</artifactId>
-	<version>2.0.13-SNAPSHOT</version>
+	<version>2.0.14-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -289,12 +289,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>artifactory.lan.releases</id>
+			<id>lan.releases</id>
 			<name>Gentics Releases Repository</name>
 			<url>http://artifactory.office/repository/lan.releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>artifactory.lan.snapshots</id>
+			<id>lan.snapshots</id>
 			<name>Gentics Snapshots Repository</name>
 			<url>http://artifactory.office/repository/lan.snapshots</url>
 		</snapshotRepository>
