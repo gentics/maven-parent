@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gentics</groupId>
 	<artifactId>maven-parent</artifactId>
-	<version>2.0.16</version>
+	<version>3.0.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -13,16 +13,16 @@
 		<!--Plugin versions -->
 		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
 		<maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
-		<maven.resources.plugin.version>2.6</maven.resources.plugin.version>
-		<maven.dependency.plugin.version>2.9</maven.dependency.plugin.version>
+		<maven.resources.plugin.version>3.1.0</maven.resources.plugin.version>
+		<maven.dependency.plugin.version>3.1.1</maven.dependency.plugin.version>
 		<maven.surefire.plugin.version>2.20.1</maven.surefire.plugin.version>
 		<maven.failsafe.plugin.version>2.20.1</maven.failsafe.plugin.version>
 		<maven.surefire.report.plugin.version>2.20.1</maven.surefire.report.plugin.version>
-		<maven.javadoc.plugin.version>3.0.0-M1</maven.javadoc.plugin.version>
+		<maven.javadoc.plugin.version>3.0.1</maven.javadoc.plugin.version>
 		<maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
-		<maven.shade.plugin.version>3.1.0</maven.shade.plugin.version>
-		<maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
-		<maven.source.plugin.version>2.3</maven.source.plugin.version>
+		<maven.shade.plugin.version>3.1.1</maven.shade.plugin.version>
+		<maven.jar.plugin.version>3.1.0</maven.jar.plugin.version>
+		<maven.source.plugin.version>3.0.1</maven.source.plugin.version>
 		<maven.site.plugin.version>3.3</maven.site.plugin.version>
 		<maven.checkstyle.plugin.version>2.14</maven.checkstyle.plugin.version>
 		<maven.findbugs.plugin.version>3.0.0</maven.findbugs.plugin.version>
@@ -140,7 +140,7 @@
 						<dependency>
 							<groupId>com.gentics</groupId>
 							<artifactId>maven-parent</artifactId>
-							<version>2.0.16</version>
+							<version>3.0.0</version>
 						</dependency>
 					</dependencies>
 				</plugin>
@@ -218,8 +218,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>${maven.compiler.plugin.version}</version>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<release>8</release>
 					</configuration>
 				</plugin>
 				<plugin>
