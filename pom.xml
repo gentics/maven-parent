@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gentics</groupId>
 	<artifactId>maven-parent</artifactId>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -166,12 +167,12 @@
 		<repository>
 			<id>lan.releases</id>
 			<name>Gentics Releases Repository</name>
-			<url>https://repo-internal.apa-it.at/artifactory/gtx-maven-releases</url>
+			<url>https://repo.apa-it.at/artifactory/gtx-maven-releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>lan.snapshots</id>
 			<name>Gentics Snapshots Repository</name>
-			<url>https://repo-internal.apa-it.at/artifactory/gtx-maven-snapshots</url>
+			<url>https://repo.apa-it.at/artifactory/gtx-maven-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
