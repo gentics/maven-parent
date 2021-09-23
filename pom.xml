@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gentics</groupId>
 	<artifactId>maven-parent</artifactId>
-	<version>5.0.2</version>
+	<version>5.1.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -24,6 +24,9 @@
 		<maven.jar.plugin.version>3.1.0</maven.jar.plugin.version>
 		<maven.source.plugin.version>3.0.1</maven.source.plugin.version>
 		<maven.site.plugin.version>3.3</maven.site.plugin.version>
+		<maven.release.plugin.version>3.0.0-M4</maven.release.plugin.version>
+		<!-- Last version that supports Java 8. -->
+		<maven.sonar.plugin.version>3.8.0.2131</maven.sonar.plugin.version>
 	</properties>
 
 	<dependencyManagement>
@@ -138,6 +141,12 @@
 						</execution>
 					</executions>
 				</plugin>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>${maven.sonar.plugin.version}</version>
+				</plugin>
+
 			</plugins>
 		</pluginManagement>
 	</build>
