@@ -9,3 +9,7 @@ plugins as well as JUnit and Mockito.
 
 * Set release plugin version to 3.0.0-M4
 * Add Sonarcube plugin with version 3.8.0.2131 (last Java 8 version)
+
+### 5.1.1 (2026-04-10)
+
+* Fix Repositories
